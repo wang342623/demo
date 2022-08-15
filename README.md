@@ -1,3 +1,7 @@
+### 快服网后台服务
+
+## app目录说明
+```shell
 |-- Console
 |   |-- Commands
 |   |   |-- AdTask.php			广告后台任务
@@ -51,3 +55,8 @@
 |       |-- WxServiceProvider.php
 |       |-- config.php
 |       `-- wx.php
+|-- Models 模型目录
+|-- Providers
+|   `-- KfAdmin.php 服务提供者
+
+```
