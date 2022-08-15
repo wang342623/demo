@@ -1,6 +1,5 @@
 ### demo目录说明
 
-## app目录说明
 ```shell
 |-- Console
 |   |-- Commands
@@ -22,8 +21,6 @@
 |   |   |-- TestCli.php 		测试、生成节假日配置、初始化scrm
 |   |   `-- WxInit.php
 |   `-- Kernel.php 定义定时任务
-|-- Facades
-|   `-- kfRedisFacade.php		redis的门面
 |-- Lib
 |   |-- BankRemitService.php	在Remit.php中调用
 |   |-- BasicApi.php 			基础请求类
@@ -55,8 +52,4 @@
 |       |-- WxServiceProvider.php
 |       |-- config.php
 |       `-- wx.php
-|-- Models 模型目录
-|-- Providers
-|   `-- KfAdmin.php 服务提供者
-
 ```
